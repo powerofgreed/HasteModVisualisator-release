@@ -30,35 +30,38 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+  <GameDir>..\Haste</GameDir>
+</PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\BepInEx\core\0Harmony.dll</HintPath>
+      <HintPath> $(GameDir)\BepInEx\core\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath> $(GameDir)\Haste_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BepInEx">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\BepInEx\core\BepInEx.dll</HintPath>
+      <HintPath> $(GameDir)\BepInEx\core\BepInEx.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath> $(GameDir)\Haste_Data\Managed\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath> $(GameDir)\Haste_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath> $(GameDir)\Haste_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath> $(GameDir)\Haste_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.IMGUIModule">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <HintPath> $(GameDir)\Haste_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule">
-      <HintPath>G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath> $(GameDir)\Haste_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -78,30 +81,30 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.TLSModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UI.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UIElementsModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UIModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UmbraModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityAnalyticsModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityConnectModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityCurlModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityTestProtocolModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityWebRequestModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.VehiclesModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.VFXModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.VideoModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.VirtualTexturingModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.VRModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.WindModule.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll" />
-    <Analyzer Include="G:\Games\Haste\Haste.v1.5.b-OFME mods\Haste\Haste_Data\Managed\UnityEngine.XRModule.dll" />
+    <Analyzer Include=" $(GameDir)\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.TLSModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UI.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UIElementsModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UIModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UmbraModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityAnalyticsCommonModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityAnalyticsModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityConnectModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityCurlModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityTestProtocolModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityWebRequestAudioModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityWebRequestModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.VehiclesModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.VFXModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.VideoModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.VirtualTexturingModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.VRModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.WindModule.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.XR.LegacyInputHelpers.dll" />
+    <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.XRModule.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
