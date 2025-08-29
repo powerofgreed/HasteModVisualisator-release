@@ -32,8 +32,9 @@ Download [BepInEx (x64)](https://github.com/BepInEx/BepInEx/releases)  **BepInEx
 
 4. Download  [**HasteModVisualisator**](https://github.com/powerofgreed/HasteModVisualisator-release/releases/) and extract in game directory.
 
-  **--(Optional) [BepInEx.ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager)** - an additional plugin for much easier plugins configuration
-  **--(Optional) [HasteModPlaylist](https://github.com/powerofgreed/HasteModPlaylist-release)** - play game and listen you favorite music!
+  **--(Optional)** [BepInEx.ConfigurationManager](https://github.com/BepInEx/BepInEx.ConfigurationManager) - an additional plugin for much easier plugins configuration
+
+  **--(Optional)** [HasteModPlaylist](https://github.com/powerofgreed/HasteModPlaylist-release) - play game and listen you favorite music!
 
 ## ⚙ Configuration
 
