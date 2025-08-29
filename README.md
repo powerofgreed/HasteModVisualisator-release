@@ -48,6 +48,29 @@ All settings are available via **ConfigurationManager**
 Settings are saved to:
 BepInEx/config/HasteModVisualisator.cfg
 
+## 🛠 Building from Source
+
+You’ll need:
+- Visual Studio 2022 (Community or higher)
+- .NET Framework targeting pack that matches your game’s version (likely 4.x)
+- Local copy of the *Haste* game
+
+**Important:**  
+When building from source, place your *Haste* game folder so it sits **next to** the `HasteModVisualisator.sln` file.  
+Example:
+<pre>
+repos/
+├─ HasteModVisualisator/
+│  ├─ HasteModVisualisator.sln
+│  ├─ HasteModVisualisator/   (project files)
+│  └─ ...
+└─ Haste/
+   ├─ Haste_Data/
+   │   └─ Managed/UnityEngine.dll
+   └─ ...
+</pre>
+This ensures the relative `<HintPath>` references in the `.csproj` resolve correctly without editing.
+
 ---
 
 ## 📸 Screenshots / Demo
