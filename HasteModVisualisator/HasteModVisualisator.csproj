@@ -81,7 +81,6 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <Analyzer Include=" $(GameDir)\BepInEx\plugins\ConfigurationManager\ConfigurationManager.dll" />
     <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.TLSModule.dll" />
     <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UI.dll" />
     <Analyzer Include=" $(GameDir)\Haste_Data\Managed\UnityEngine.UIElementsModule.dll" />
