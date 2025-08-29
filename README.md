@@ -37,7 +37,8 @@ Download [BepInEx (x64)](https://github.com/BepInEx/BepInEx/releases)  **BepInEx
 
 ## ⚙ Configuration
 
-All settings are available via **ConfigurationManager**:
+All settings are available via **ConfigurationManager**
+**F1 by default**:
 - ☁️CRAZY CLOUDS😵 and 🌅HORIZON🌄 effect are disable by default. **TRY IT!**
 - 🌞Sun movement is disabled by default.
 - Enable/disable individual effects (clouds, lighting, horizon, stars).
