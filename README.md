@@ -42,7 +42,7 @@ All settings are available via **ConfigurationManager**
 **F1 by default**:
 - ☁️CRAZY CLOUDS😵 and 🌅HORIZON🌄 effect are disable by default. **TRY IT!**
 - 🌞Sun movement is disabled by default.
-- Enable/disable individual effects (clouds, lighting, horizon, stars).
+- Enable/disable individual effects (clouds, lighting, horizon).
 - Adjust intensity, color response, smoothing, and beat sensitivity.
 - Advanced per‑band controls for fine‑tuning frequency response.
 
