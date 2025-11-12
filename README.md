@@ -2,6 +2,9 @@
 
 https://github.com/user-attachments/assets/daef6df7-71da-4a42-8596-ece591f989bc
 
+This is BepInEx plugin adds super visualisator to the game. Makes gameplay in you favorite game be even more likable and emotional.
+Works best in combo with my another mod [HasteCustomMusic](https://github.com/powerofgreed/HasteCustomMusic-release), which allows you to play you favirte tracks or radio stations!
+
 
 
 
